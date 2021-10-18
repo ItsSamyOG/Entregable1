@@ -1,0 +1,26 @@
+
+•Debe contener mínimo 1 esfera
+• Debe contener mínimo 2 cilindros a los que se les haya aplicado un cambio de escala.
+Ambos cilindros deben tener una escala diferente a (1, 1, 1)
+• Debe contener mínimo 1 cubo al que se le haya modificado la rotación. Su rotación
+debe ser diferente a (0, 0, 0).
+• Debe contener mínimo 1 píldora (Capsule)
+• Todos los Game Objects que conformen el modelo deben ser hijos de un Game Object
+Vacío llamado Player y con posición (0, 0, 0)
+
+๏ Crea un prefab a partir del Game Object Player del paso anterior.
+๏ Crea como mínimo 3 materiales que satisfagan:
+• Uno de ellos debe tener asociado una textura 
+• Uno de ellos debe tener un tinte diferente a blanco en la opción Albedo
+• Uno de ellos debe ser transparente
+• Todos ellos deben estar presentes en alguno de los game objects que conforman el
+prefab llamado Player
+๏ Crea un prefab variant del prefab Player. Deberás añadir un Game Object más y crear como
+mínimo 2 nuevos materiales para que visiblemente sea diferente. El prefab variant debe tener
+como nombre Enemy.
+
+๏ Los prefabs deben estar guardados en la carpeta Prefabs (Enemy)
+๏ Las texturas deben estar guardadas en la carpeta Textures (robot, vere y rojo)
+๏ Los materiales deben estar guardados en la carpeta Materials (material1, material2 y material3)
+
+
